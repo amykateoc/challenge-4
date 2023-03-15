@@ -1,23 +1,30 @@
 var questions = [
     {
-        title: "this is question 1",
-        options: ["option1", "options2", "option3"],
-        answer: "option1"
+        title: "What does JavaScript add to an application?",
+        options: ["Functionality", "Styling", "Structure"],
+        answer: "Functionality"
     },
     {
-        title: "this is question 2",
-        options: ["option1", "options2", "option3"],
-        answer: "option3"
+        title: "Which HTML element contains the JavaScript Link?",
+        options: ["<js>", "<javascript>", "<script>"],
+        answer: "<script>"
     },
     {
-        title: "this is question 3",
-        options: ["option1", "options2", "option3"],
-        answer: "option2"
+        title: "How do you notate a comment in JavaScript?",
+        options: ["\\", "//", "/*"],
+        answer: "//"
     },
     {
-        title: "this is question 4",
-        options: ["option1", "options2", "option3"],
-        answer: "option2"
+        title: "Which is proper wayto create a function?",
+        options: ["function=functionName()", "function functionName()", "functionNamee()"],
+        answer: "function functionName()"
+    },
+    {
+        title: "How do you call a function?",
+        options: ["FunctionName()", "call.functionName()", "functionName(call)"],
+        answer: "FunctionName()"
     }
 ]
 console.log(questions[1].title);
+console.log(questions[3].options);
+console.log(questions[0].answer);
